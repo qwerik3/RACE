@@ -1,0 +1,13 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.road {
+	border: 1px solid black;
+	width: 90%;
+	height: 100px;
+}
+.car1, .car2 {
+	width: 90px;
+}

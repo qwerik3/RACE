@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Гонки</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="road">
+			<img src="sedan.png" alt="машинка" class="car1"> 	
+		</div>
+		<div class="road">
+			<img src="sports-car.png" alt="машинка" class="car2">
+		</div>
+	</div>
+	<div class="info">
+		<p>Твой счёт: <span class="score"></span></p>
+		<p>Твоя ставка: <span class="bet"></span></p>
+		<button class="plus">+10</button>
+		<button class="minus">-10</button>
+		<p>Кто победит</p>
+		<button class="black" onclick="properlyWinner('light')">Легковая</button>
+		<button class="white" onclick="properlyWinner('sport')">Гоночная</button>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
